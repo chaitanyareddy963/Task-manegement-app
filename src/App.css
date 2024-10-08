@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.task-input button {
+  padding: 10px 15px;
+}
+
+.task-list {
+  margin: 20px auto;
+  width: 300px;
+  text-align: left;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-item button {
+  background-color: #ff4d4d;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #ff3333;
+}
